@@ -7,7 +7,7 @@ public class tictactoe
   public static void program_initialize()//gets all values prepared for the rest of the programs execution 
   { 
    Scanner sc = new Scanner(System.in);
-   System.out.println("Hello this is a tic tac toe program in which you play against a computer.");
+   System.out.println("This is a tic tac toe program in which you play against a computer.Copyright (c) 2021 Soham Dhar");
    grid = new int[] {1,2,3,4,5,6,7,8,9};
    int xo = 3; 
    int first_check = 0;//flag to check if its the first time the loop has been executed
